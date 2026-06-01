@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Curl Up & Dye | Premium Hair Salon & Custom Color Studio | Branson, MO</title>
+    
+    <!-- Design Typography Fonts Framework -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
+    
+    <!-- Material Symbols Vector Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    
+    <!-- Tailwind CSS fluid layout deployment engine -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "boho-clay": "#D4A373",
+                        "boho-cream": "#F4F1EA",
+                        "boho-dark": "#121212",
+                        "boho-panel": "#1A1A1A",
+                        "boho-border": "#2C2925"
+                    },
+                    fontFamily: {
+                        display: ["Playfair Display", "serif"],
+                        body: ["Hanken Grotesk", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .smooth-transition { transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1); }
+        
+        @keyframes richGoldShimmer {
+            0% { background-position: -200% center; }
+            100% { background-position: 200% center; }
+        }
+        .clay-shimmer {
+            background: linear-gradient(90deg, #D4A373 0%, #FFEEDB 50%, #D4A373 100%);
+            background-size: 200% auto;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: richGoldShimmer 5s linear infinite;
+        }
+    </style>
+</head>
+<body class="bg-[#0C0C0C] text-[#E4E1DB] font-body antialiased min-h-screen flex flex-col overflow-x-hidden scroll-smooth">
+
+    <!-- NAVIGATION HUB -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-[#0C0C0C]/90 backdrop-blur-xl border-b border-zinc-900/80 flex justify-between items-center px-6 md:px-16 py-5 smooth-transition">
+        <a class="font-display text-lg md:text-xl font-bold tracking-widest text-white uppercase flex items-center gap-1" href="#">
+            CURL UP <span class="text-boho-clay">&amp; DYE</span>
+        </a>
+        <div class="hidden md:flex gap-10 items-center">
+            <a class="text-[11px] uppercase tracking-[0.2em] text-zinc-400 hover:text-white smooth-transition font-medium" href="#services">Curated Specialties</a>
+            <a class="text-[11px] uppercase tracking-[0.2em] text-zinc-400 hover:text-white smooth-transition font-medium" href="#menu">The Transparent Ledger</a>
+            <a class="text-[11px] uppercase tracking-[0.2em] text-zinc-400 hover:text-white smooth-transition font-medium" href="#booking">Interactive Booking</a>
+        </div>
+        <a href="#booking" class="text-[11px] uppercase tracking-[0.2em] px-6 py-3 bg-boho-clay text-black font-semibold smooth-transition hover:bg-white">
+            Secure Session
+        </a>
+    </nav>
+
+    <!-- CINEMATIC BOHO HERO SECTION -->
+    <header class="relative w-full h-screen flex items-center justify-center overflow-hidden bg-zinc-950">
+        <div class="absolute inset-0 w-full h-full">
+            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1600&q=80" class="w-full h-full object-cover opacity-20 scale-105 filter grayscale contrast-125" alt="Curl Up and Dye Studio Space">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0C0C0C] via-[#0C0C0C]/70 to-transparent"></div>
+        </div>
+        
+        <div class="relative z-10 flex flex-col items-center text-center px-6 max-w-3xl mx-auto mt-16">
+            <div class="inline-flex items-center gap-2 px-3 py-1 bg-amber-950/20 border border-boho-clay/30 rounded mb-5">
+                <span class="w-1.5 h-1.5 rounded-full bg-boho-clay animate-pulse"></span>
+                <span class="text-[9px] font-mono text-zinc-300 tracking-[0.2em] uppercase">Branson, MO • Master Color Specialists</span>
+            </div>
+            <h1 class="font-display text-4xl md:text-6xl text-white font-medium mb-6 leading-tight">
+                The Art of <span class="clay-shimmer font-italic font-normal">Refining Style</span>
+            </h1>
+            <p class="text-sm md:text-base text-zinc-400 max-w-xl mb-10 tracking-wide font-light leading-relaxed">
+                Stop forcing travelers and premium locals to hunt through messy Facebook timelines just to find basic salon rates[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span). Welcome to Branson’s dedicated color storefront—built for absolute pricing clarity and crisp mobile booking[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span).
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a class="bg-boho-clay text-black px-8 py-4 text-[11px] uppercase tracking-[0.2em] font-semibold hover:bg-white smooth-transition" href="#menu">
+                    Explore Service Directory
+                </a>
+                <a href="tel:+14173346014" class="border border-zinc-800 text-white px-6 py-4 text-[11px] uppercase tracking-[0.2em] hover:bg-white/5 smooth-transition flex items-center gap-2">
+                    <span class="material-symbols-outlined text-sm text-boho-clay">phone</span> Call Studio: (417) 334-6014
+                </a>
+            </div>
+        </div>
+
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce text-zinc-600">
+            <span class="material-symbols-outlined text-lg">arrow_downward</span>
+        </div>
+    </header>
+
+    <!-- ASYMMETRIC SPECIALTIES PANEL -->
+    <section class="py-32 px-6 md:px-16 max-w-5xl mx-auto w-full" id="services">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-20 gap-8 border-b border-zinc-900 pb-8">
+            <div>
+                <span class="text-[10px] font-mono text-boho-clay uppercase tracking-[0.2em] block">Studio Tiers</span>
+                <h2 class="font-display text-3xl text-white mt-1">Curated Offerings</h2>
+            </div>
+            <p class="text-zinc-400 text-xs max-w-xs font-light leading-relaxed">
+                Every booking opens into an unhurried, one-on-one custom consultation session designed to protect hair structural integrity.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <!-- Card 1 -->
+            <div class="group relative overflow-hidden aspect-[4/5] bg-zinc-900 border border-zinc-800/60 rounded-sm cursor-pointer">
+                <img class="absolute inset-0 w-full h-full object-cover opacity-40 transition-transform duration-1000 group-hover:scale-105 filter grayscale contrast-125" src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80" alt="Balayage Artistry Suite">
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent transition-colors duration-500 group-hover:bg-black/70"></div>
+                
+                <div class="absolute inset-0 flex flex-col items-center justify-center p-8 opacity-0 transition-opacity duration-500 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 text-center">
+                    <h3 class="font-display text-2xl text-boho-clay mb-3">Dimensional Color</h3>
+                    <p class="text-xs text-zinc-400 max-w-xs mb-6 font-light leading-relaxed">
+                        Precision master balayage, custom highlighting matrices, and complete color profile transformations.
+                    </p>
+                    <span class="text-[10px] uppercase tracking-widest text-white border-b border-white/40 pb-0.5">View Category Tiers</span>
+                </div>
+                <div class="absolute bottom-6 left-6 transition-opacity duration-500 group-hover:opacity-0">
+                    <h3 class="font-display text-xl text-white tracking-wide">01 // Advanced Dimensional Color</h3>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="group relative overflow-hidden aspect-[4/5] bg-zinc-900 border border-zinc-800/60 rounded-sm cursor-pointer md:mt-20">
+                <img class="absolute inset-0 w-full h-full object-cover opacity-40 transition-transform duration-1000 group-hover:scale-105 filter grayscale contrast-125" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="Precision Editorial Cuts">
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent transition-colors duration-500 group-hover:bg-black/70"></div>
+                
+                <div class="absolute inset-0 flex flex-col items-center justify-center p-8 opacity-0 transition-opacity duration-500 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 text-center">
+                    <h3 class="font-display text-2xl text-boho-clay mb-3">Precision Sculpting</h3>
+                    <p class="text-xs text-zinc-400 max-w-xs mb-6 font-light leading-relaxed">
+                        Bespoke cuts engineered architectural focus to add dynamic volume, structural weight, and natural movement.
+                    </p>
+                    <span class="text-[10px] uppercase tracking-widest text-white border-b border-white/40 pb-0.5">View Category Tiers</span>
+                </div>
+                <div class="absolute bottom-6 left-6 transition-opacity duration-500 group-hover:opacity-0">
+                    <h3 class="font-display text-xl text-white tracking-wide">02 // Precision Structural Cuts</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UPFRONT TRANSPARENT PRICE LEDGER (THE DATABASE FIX) -->
+    <section id="menu" class="py-28 bg-[#111111] border-y border-zinc-900">
+        <div class="max-w-4xl mx-auto px-6">
+            <span class="text-[10px] font-mono text-boho-clay uppercase tracking-[0.2em] text-center block mb-2">The Solution Matrix</span>
+            <h2 class="font-display text-3xl text-white mb-16 text-center">Upfront Service Ledger</h2>
+            
+            <div class="space-y-8 max-w-3xl mx-auto">
+                <div class="flex justify-between items-baseline group cursor-default">
+                    <span class="font-display text-lg md:text-xl text-zinc-200 group-hover:text-boho-clay smooth-transition">Signature Cut, Wash &amp; Blowout</span>
+                    <div class="flex-grow mx-4 border-b border-dotted border-zinc-800 relative top-[-5px]"></div>
+                    <span class="font-display text-lg md:text-xl text-boho-clay">$65+</span>
+                </div>
+                <div class="flex justify-between items-baseline group cursor-default">
+                    <span class="font-display text-lg md:text-xl text-zinc-200 group-hover:text-boho-clay smooth-transition">Full Balayage Dimensional Painting</span>
+                    <div class="flex-grow mx-4 border-b border-dotted border-zinc-800 relative top-[-5px]"></div>
+                    <span class="font-display text-lg md:text-xl text-boho-clay">$180+</span>
+                </div>
+                <div class="flex justify-between items-baseline group cursor-default">
+                    <span class="font-display text-lg md:text-xl text-zinc-200 group-hover:text-boho-clay smooth-transition">Botanical Scalp Conditioning Detox Therapy</span>
+                    <div class="flex-grow mx-4 border-b border-dotted border-zinc-800 relative top-[-5px]"></div>
+                    <span class="font-display text-lg md:text-xl text-boho-clay">$45+</span>
+                </div>
+                <div class="flex justify-between items-baseline group cursor-default">
+                    <span class="font-display text-lg md:text-xl text-zinc-200 group-hover:text-boho-clay smooth-transition">Full Multi-Foil Highlight Architecture</span>
+                    <div class="flex-grow mx-4 border-b border-dotted border-zinc-800 relative top-[-5px]"></div>
+                    <span class="font-display text-lg md:text-xl text-boho-clay">From $140</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STABLE ZERO-JAVASCRIPT INTERACTIVE SCHEDULER MATRIX -->
+    <section id="booking" class="py-32 px-6 md:px-16 w-full max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-5 flex flex-col gap-4">
+                <span class="text-[10px] font-mono text-boho-clay uppercase tracking-[0.2em] font-semibold">Zero Holds Required</span>
+                <h3 class="font-display text-2xl md:text-3xl text-white tracking-tight">Interactive Chair Mockup</h3>
+                <p class="text-zinc-400 text-xs leading-relaxed font-light">
+                    Test our stable booking engine blueprint directly on your device frame. Tap a master stylist and select an open hours segment to view instant feedback highlights[span_4](start_span)[span_4](end_span).
+                </p>
+            </div>
+            
+            <!-- Pure CSS Control Box Engine -->
+            <div class="lg:col-span-7 bg-[#111111] border border-zinc-900 p-6 md:p-8 rounded-sm shadow-2xl">
+                <h4 class="font-display text-base uppercase text-white tracking-wider mb-6 flex justify-between items-center border-b border-zinc-900 pb-4">
+                    <span>Reserve an Appointment Mockup</span>
+                    <span class="text-[9px] text-boho-clay font-mono bg-amber-950/30 px-2 py-0.5 rounded border border-amber-900/30">Live Simulation</span>
+                </h4>
+                
+                <form onsubmit="event.preventDefault(); alert('Curl Up & Dye Luxury Mockup Suite Reserved!');" class="flex flex-col gap-5">
+                    <div>
+                        <label class="block font-mono text-[9px] text-zinc-400 uppercase tracking-widest mb-2.5">1. Select Elite Stylist</label>
+                        <div class="grid grid-cols-3 gap-2">
+                            <label class="cursor-pointer">
+                                <input type="radio" name="stylist" class="sr-only peer" checked>
+                                <div class="p-3 bg-zinc-900/40 text-zinc-400 text-xs font-semibold text-center uppercase border border-zinc-900 peer-checked:bg-boho-clay peer-checked:text-black peer-checked:border-boho-clay smooth-transition">Any Artist</div>
+                            </label>
+                            <label class="cursor-pointer">
+                                <input type="radio" name="stylist" class="sr-only peer">
+                                <div class="p-3 bg-zinc-900/40 text-zinc-400 text-xs font-semibold text-center uppercase border border-zinc-900 peer-checked:bg-boho-clay peer-checked:text-black peer-checked:border-boho-clay smooth-transition">Elena</div>
+                            </label>
+                            <label class="cursor-pointer">
+                                <input type="radio" name="stylist" class="sr-only peer">
+                                <div class="p-3 bg-zinc-900/40 text-zinc-400 text-xs font-semibold text-center uppercase border border-zinc-900 peer-checked:bg-boho-clay peer-checked:text-black peer-checked:border-boho-clay smooth-transition">Sarah</div>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label class="block font-mono text-[9px] text-zinc-400 uppercase tracking-widest mb-2.5">2. Available Windows (Today)</label>
+                        <div class="grid grid-cols-4 gap-2">
+                            <label class="cursor-pointer">
+                                <input type="radio" name="time_slot" class="sr-only peer" checked>
+                                <div class="p-2.5 bg-zinc-900/40 text-zinc-300 text-xs font-mono text-center border border-zinc-900 peer-checked:bg-boho-clay peer-checked:text-black peer-checked:border-boho-clay smooth-transition">09:30 AM</div>
+                            </label>
+                            <label class="cursor-pointer">
+                                <input type="radio" name="time_slot" class="sr-only peer">
+                                <div class="p-2.5 bg-zinc-900/40 text-zinc-300 text-xs font-mono text-center border border-zinc-900 peer-checked:bg-boho-clay peer-checked:text-black peer-checked:border-boho-clay smooth-transition">11:00 AM</div>
+                            </label>
+                            <div class="p-2.5 bg-zinc-900/20 text-zinc-700 line-through text-xs font-mono text-center border border-zinc-950 cursor-not-allowed flex items-center justify-center">01:30 PM</div>
+                            <label class="cursor-pointer">
+                                <input type="radio" name="time_slot" class="sr-only peer">
+                                <div class="p-2.5 bg-zinc-900/40 text-zinc-300 text-xs font-mono text-center border border-zinc-900 peer-checked:bg-boho-clay peer-checked:text-black peer-checked:border-boho-clay smooth-transition">03:30 PM</div>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="w-full mt-2 bg-boho-clay text-black font-semibold text-xs uppercase tracking-[0.2em] py-4 smooth-transition hover:bg-white">
+                        Verify Mockup Routing Matrix
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- GEOLOCATION DATA STATION -->
+    <section id="location" class="py-24 px-6 md:px-16 bg-[#0C0C0C] w-full border-t border-zinc-900">
+        <div class="max-w-4xl mx-auto text-center flex flex-col gap-6">
+            <span class="text-xs font-mono text-boho-clay uppercase tracking-widest font-semibold">The Studio Base</span>
+            <h3 class="font-display text-2xl md:text-3xl text-white uppercase">Hours & Geolocation Data</h3>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left max-w-xl mx-auto w-full border border-zinc-800 p-8 rounded-sm bg-[#111111]">
+                <div class="flex gap-4 items-start">
+                    <span class="material-symbols-outlined text-boho-clay">location_on</span>
+                    <div>
+                        <h5 class="text-white font-display text-sm uppercase tracking-wide">Physical Address</h5>
+                        <p class="text-xs text-neutral-400 mt-1 font-mono leading-relaxed">
+                            Curl Up &amp; Dye Salon<br>
+                            Branson, MO 65616
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-start">
+                    <span class="material-symbols-outlined text-boho-clay">schedule</span>
+                    <div>
+                        <h5 class="text-white font-display text-sm uppercase tracking-wide">Studio Schedule</h5>
+                        <p class=
